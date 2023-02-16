@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <title>Restaurant Locator</title>
+</head>
+<body>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+
+    <header>
+        <h1>DARE TO EAT</h1>
+
+        <i class="fa fa-cutlery" style="font-size:40px;"></i>
+    </header>
+
+    <div id="form">
+        <div>
+            <label>Click here to search by current location</label>
+            <button class="current-loc">Search</button>
+        </div>
+        <form>
+            <div>
+                <input id="the-input" type="text" name="search" placeholder="Search by city, zip code or address">
+                <button class="button">Search</button>
+            </div>
+        </form>
+    </div>
+    <p id="demo"></p>
+    <div class="flex">
+        <div class="cardarea">
+
+        </div>
+
+        <div id="map"></div>
+    </div>
+    <footer>
+        <a href="https://www.nutritionix.com/business/api" target="_blank"><img src="./Assets/poweredby_nutritionix_api.png"></a>
+    </footer>
+    <script src="./Scripts/script.js"></script>
+</body>
+</html>

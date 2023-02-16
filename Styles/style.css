@@ -1,0 +1,140 @@
+body{
+    background-color: #586ba4;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+h1{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+i{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#map {
+    height: 650px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0a458;
+    padding: 20px;
+    border-style: groove;
+}
+
+input[type=text] {
+    width: 380px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-color: aliceblue;
+    /* transition: width 0.4s ease-in-out; */
+}
+
+::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* input[type=text]:focus {
+    width: 80%;
+} */
+
+button{
+    /* background-color: aliceblue; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardarea{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.card {
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    box-shadow:16px 16px 16px 16px rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0%;
+}
+
+.phone-number{
+    margin-bottom: 30px;
+}
+
+.container p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container a{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
